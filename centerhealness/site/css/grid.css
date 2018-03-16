@@ -1,0 +1,38 @@
+body{
+    background-color: #424242;
+}
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    background-color: #424242;
+    margin: auto;
+    grid-template-rows: repeat(6, 1fr);
+    grid-template-columns: repeat(4, 1fr);  
+    grid-column-gap: 12px;
+    grid-row-gap: 12px;
+}
+
+header{
+    display: gridx  ;
+    grid-column: span 4;
+    grid-row: span 1;
+    background-color: rgb(138, 138, 138);
+}
+
+h1{
+    color: white;
+    font-size: 36px;
+    margin: auto;
+    font-family: arial;
+    display: grid;
+}
+
+nav{
+    display: grid;
+    grid-column: span 1;
+    grid-row: 2 / 7;
+    background-color: rgb(34, 33, 33);
+
+}
